@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Nunito+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+  }
+  
+  body {
+    background: #eee;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  header, footer { 
+    flex: none; 
+  }
+  
+  main {
+    display: flex;
+    flex: 1 0 auto;
+  }
+
+  

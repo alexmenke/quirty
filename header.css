@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Nunito+Sans:wght@300&display=swap');
+
+.main-nav {
+  display: flex;
+  background-color: rgb(48, 71, 94);
+  justify-content: space-between;
+  height: 3rem;
+}
+
+.horizontal-nav-list-full-width {
+  display: flex;
+  padding: .5rem;
+}
+
+.horizontal-nav-list-full-width a {
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  color: rgb(245, 245, 245);
+  padding: 0.25em 0.5em;
+  border-right: 1px solid rgb(245, 245, 245);
+}
+
+.horizontal-nav-list-short-width {
+  display: none;
+  padding: .5rem;
+}
+
+.horizontal-nav-list-short-width a {
+  color: rgb(245, 245, 245);
+}
+
+.horizontal-nav-list-short-width li:last-of-type a{
+  border-right: none;
+}
+
+ul { 
+  list-style-type: none;
+}
+
+@media (max-width: 768px) {
+  .horizontal-nav-list-full-width {
+    display: none;
+  }
+  
+  .horizontal-nav-list-short-width {
+    display: flex;
+    padding: .5rem;
+    color: rgb(245, 245, 245);
+  }
+}
+
+@media (min-width: 769px) {
+  .horizontal-nav-list-full-width {
+    display: flex;
+  }
+  
+  .horizontal-nav-list-short-width {
+    display: none;
+  }
+}
+
+.horizontal-nav-list {
+  display: flex;
+  flex-direction: row;
+  padding: .5rem;
+}
+
+.horizontal-nav-list a {
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  color: rgb(245, 245, 245);
+  padding: 0.25em 0.5em;
+  border-right: 1px solid rgb(245, 245, 245);
+}
+
+.main-nav li:last-of-type a{
+  border-right: none;
+}
+
+.sub-nav {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.search-form {
+  display: flex;
+  flex: 1;
+}
+
+.search-form input {
+  padding: 0.1em 0.75em;
+  flex: 1;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(48, 71, 94);
+}
+
+.search-form button {
+  background: rgb(48, 71, 94);
+  color: rgb(245, 245, 245);
+  padding: 0.25em 0.5em;
+  border: none;
+}
+
+.credit-offer {
+  text-decoration: none;
+  color: rgb(245, 245, 245);
+  font-weight: bold;
+  font-size: 18px;
+  background: rgb(240, 84, 84);
+  padding: 0.25rem 0.5rem;
+  flex-shrink: 0;
+  margin: 0 .75rem;
+}
+  
+.company-name {
+  font-size: 60px;
+  color: rgb(255, 195, 0);
+  margin: 0 3rem;
+  text-align: center;
+  font-weight: bolder
+}
+

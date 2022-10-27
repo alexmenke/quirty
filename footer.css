@@ -1,0 +1,54 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(27, 41, 55);
+    color: rgb(245, 245, 245);
+    justify-content: center;
+    min-height: 48px;
+    padding: 0.5rem;
+}
+
+section {
+    margin-right: 5vw;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+}
+
+section:last-child {
+    margin-right: 0;
+}
+
+h2 {
+    color: rgb(245, 245, 245);
+    border-bottom: 2px solid rgb(245, 245, 245);
+    padding: 2%;
+    margin-bottom: .5rem;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: left;
+    font-weight: bolder;
+}
+
+section a:link {
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+    font-size: 12px;
+    align-self: flex-start;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+section a:hover {
+    color: rgb(245, 245, 245);
+    border-bottom: 1px solid rgb(245, 245, 245);
+    margin-bottom: 9px;
+    font-weight: bold;
+}
+
+section a:visited {
+    color: rgb(245, 245, 245);
+    border-bottom: 1px solid rgb(245, 245, 245);
+    margin-bottom: 9px;
+    font-weight: bold;
+}

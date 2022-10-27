@@ -1,0 +1,28 @@
+.categories {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 256px;
+    text-transform: uppercase;
+}
+
+.categories a:link {
+    margin: 0 3rem;
+    padding: 3%;
+    text-align: center;
+    margin-bottom: 1rem;
+    background-color: rgb(48, 71, 94);
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+}
+
+.categories a:hover {
+    background-color: rgb(27, 41, 55);
+    box-shadow: 0 2px 5px -2px black;
+}
+
+.categories a:visited {
+    box-shadow: 0 2px 5px -2px rgb(0, 0, 0);
+    color: rgb(245, 245, 245);
+}
